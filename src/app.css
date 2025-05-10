@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	/* Neutral Colors */
+	--color-neutral-900: oklch(0.15 0.03 260);
+	--color-neutral-800: oklch(0.2 0.02 260);
+	--color-neutral-700: oklch(0.25 0.02 260);
+	--color-neutral-600: oklch(0.35 0.02 260);
+	--color-neutral-300: oklch(0.78 0.01 260);
+	--color-neutral-200: oklch(0.9 0.02 240);
+	--color-neutral-100: oklch(0.93 0.01 260);
+	--color-neutral-0: oklch(0.99 0.01 220);
+
+	/* Red Colors */
+	--color-red-400: oklch(0.7 0.2 25);
+	--color-red-500: oklch(0.65 0.2 25);
+	--color-red-700: oklch(0.55 0.25 25);
+
+	/* Gradients (converted to Oklch stops) */
+	--color-light-start: oklch(0.96 0.0154 257.2);
+	--color-light-end: oklch(0.97 0.0107 204.12);
+	--color-dark-start: oklch(0.14 0.0345 264.6);
+	--color-dark-end: oklch(0.22 0.0835 267.08);
+
+	/* Custom Font */
+	--font-noto: 'Noto Sans', sans-serif;
+}
+
+body {
+	@apply from-dark-start to-dark-end min-h-screen bg-gradient-to-b;
+}
