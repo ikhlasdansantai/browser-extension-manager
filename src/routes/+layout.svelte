@@ -2,6 +2,11 @@
 	import '../app.css';
 
 	let { children } = $props();
+	import Navbar from '$components/Navbar.svelte';
 </script>
 
-{@render children()}
+<Navbar />
+
+<main class="mt-20">
+	{@render children()}
+</main>
