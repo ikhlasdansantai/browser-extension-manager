@@ -30,5 +30,5 @@
 }
 
 body {
-	@apply from-dark-start to-dark-end min-h-screen bg-gradient-to-b;
+	@apply from-light-start to-light-end mx-auto min-h-screen max-w-7xl bg-gradient-to-b px-4 pt-6 text-gray-900;
 }
