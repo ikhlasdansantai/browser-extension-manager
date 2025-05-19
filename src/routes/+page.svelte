@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import ExtensionCard from '$components/ExtensionCard.svelte';
+</script>
+
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+	{#each Array(4) as item}
+		<!-- content here -->
+		<ExtensionCard />
+	{/each}
+</div>
