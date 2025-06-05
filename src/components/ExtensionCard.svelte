@@ -1,5 +1,5 @@
 <div
-	class="h-fit min-h-[min-content] max-w-[25rem] rounded-3xl border border-neutral-200 bg-white p-4 shadow-sm
+	class="h-fit min-h-[min-content] rounded-3xl border border-neutral-200 bg-white p-4 shadow-smz
     sm:shadow-md
     "
 >
